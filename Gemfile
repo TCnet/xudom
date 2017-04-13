@@ -40,7 +40,13 @@ group :development, :test do
   gem 'byebug', platform: :mri
 end
 
+gem 'unicorn', '~> 4.8.3'
 group :development do
+  gem 'capistrano', '~> 3.4.0'
+  gem 'capistrano-rails', '~> 1.1.0'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rbenv', "~> 2.0"
+  gem 'capistrano-cookbook', require: false
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.0.5'
@@ -56,3 +62,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'spree', '~> 3.2.0'
 gem 'spree_auth_devise', '~> 3.2.0.beta'
 gem 'spree_gateway', '~> 3.2.0.beta'
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
