@@ -25,7 +25,8 @@ Rails.application.configure do
   config.assets.js_compressor = :uglifier
   config.assets.css_compressor = :sass
 
-  config.assets.compile = true
+  config.serve_static_assets = true
+  #config.assets.compile = true
   config.public_file_server.enabled = true
   #config.assets.js_compressor = :uglifier 
   #config.assets.css_compressor = :sass
