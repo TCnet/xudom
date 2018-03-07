@@ -9,5 +9,5 @@
 //= require spree/backend
 
 //= require_tree .
-//= require spree/backend/spree_themes
 //= require spree/backend/spree_variant_options
+//= require spree/backend/spree_themes
