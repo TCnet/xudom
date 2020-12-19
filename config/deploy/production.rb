@@ -11,7 +11,7 @@ set :server_name, "xudom.com www.xudom.com"
 # at filepaths
 set :full_app_name, "#{fetch(:application)}_#{fetch(:stage)}"
 
-server '45.79.66.211', user: 'deploy', roles: %w{web app db}, primary: true
+server '50.116.15.181', user: 'deploy', roles: %w{web app db}, primary: true
 
 set :deploy_to, "/home/#{fetch(:deploy_user)}/apps/#{fetch(:full_app_name)}"
 
