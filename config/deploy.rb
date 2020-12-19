@@ -15,12 +15,12 @@ set :rbenv_map_bins, %w{rake gem bundle ruby rails}
 set :keep_releases, 5
 
 # files we want symlinking to specific entries in shared
-set :linked_files, %w{config/database.yml}
+set :linked_files, %w{config/database.yml config/master.key}
 
 
 
 # dirs we want symlinking to shared
-set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/vinsol_spree_themes}
+set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads storage}
 
 # what specs should be run before deployment is allowed to
 # continue, see lib/capistrano/tasks/run_tests.cap
