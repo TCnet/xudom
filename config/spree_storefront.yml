@@ -1,9 +1,11 @@
 default:
   navigation:
-    - title: Women
+    - title: Womens
       subtitle: Categories
-      url: /t/women
+      url: /t/Womens
       items:
+        - :title: Jeans
+          :url: /t/womens/pants/jeans
         - :title: Skirts
           :url: /t/women/skirts
         - :title: Dresses
@@ -14,8 +16,6 @@ default:
           :url: /t/women/sweaters
         - :title: Tops and T-shirts
           :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
       promo_banners:
         - subtitle: New collection
           title: Summer 2019
@@ -46,22 +46,5 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-off
           image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Sportswear
-      subtitle: Categories
-      url: /t/sportswear
-      items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
-      promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/new-collection/summer-2019
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+    - title: AMAZON STORE
+      url: https://www.amazon.com/aodrusa?channel=Aodrusa_com

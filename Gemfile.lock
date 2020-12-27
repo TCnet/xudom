@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/TCnet/spree_mati.git
-  revision: 03d602a9b6d66bdbd2daea5424c8986e6a5c4a27
+  revision: c9c16007e50d52c4df0d0f08370fd7f2af5e9b46
   specs:
-    spree_mati (0.0.1.alpha)
+    spree_mati (0.0.2.alpha)
       spree_api (>= 3.2.0, < 5.0)
       spree_backend (>= 3.2.0, < 5.0)
       spree_core (>= 3.2.0, < 5.0)

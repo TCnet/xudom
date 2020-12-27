@@ -13,14 +13,14 @@
           <% end %>
         </div>
         <div class="d-block flex-nowrap py-2 order-xl-last col-xl-3 offset-xl-1">
-          <% unless current_store.twitter.blank? && current_store.twitter.blank? && current_store.instagram.blank? %>
+          <% unless current_store.facebook.blank? && current_store.twitter.blank? && current_store.instagram.blank? %>
             <div class="d-none d-xl-block pt-4 pb-3 pl-2 footer-spree-label">
               <%= Spree.t(:follow_us) %>
             </div>
           <% end %>
           <div class="d-flex d-xl-block justify-content-center mx-auto">
             <div class="d-flex">
-              <%= spree_social_link('twitter') %>
+              <%= spree_social_link('facebook') %>
               <%= spree_social_link('twitter') %>
               <%= spree_social_link('instagram') %>
             </div>
@@ -33,10 +33,10 @@
           <div class="d-flex flex-column align-items-center align-items-xl-start pb-3 flex-grow-2 footer-spree-contact-note">
             <div>
               <%= current_store.name %>,
-              2382 Locust Ave<br/>
-              Long Beach, CA 90806, USA
+              DongAn Road #5<br/>
+              Jimei, Xiamen, China
             </div>
-            <div>Call us now: 760-673-8590</div>
+            <div>Call us now: 86 18850191056</div>
             <% if current_store.mail_from_address %>
               <div><%= Spree.t(:email) %>: <%= current_store.mail_from_address %></div>
             <% end %>
