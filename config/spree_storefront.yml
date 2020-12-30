@@ -2,7 +2,7 @@ default:
   navigation:
     - title: Womens
       subtitle: Categories
-      url: /t/Womens
+      url: /t/womens
       items:
         - :title: Jeans
           :url: /t/womens/pants/jeans
