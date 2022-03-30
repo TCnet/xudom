@@ -210,7 +210,7 @@ GEM
     net-scp (3.0.0)
       net-ssh (>= 2.6.5, < 7.0.0)
     net-ssh (6.1.0)
-    nio4r (2.5.4)
+    nio4r (2.5.8)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
@@ -229,7 +229,7 @@ GEM
       actionmailer (>= 3)
       premailer (~> 1.7, >= 1.7.9)
     public_suffix (4.0.6)
-    puma (4.3.7)
+    puma (4.3.12)
       nio4r (~> 2.0)
     rabl (0.14.3)
       activesupport (>= 2.3.14)
@@ -455,7 +455,7 @@ DEPENDENCIES
   listen (~> 3.2)
   mimemagic!
   pg (= 0.18.4)
-  puma (~> 4.1)
+  puma (~> 4.3)
   rails (~> 6.0.3, >= 6.0.3.2)
   roo (~> 2.8.0)
   roo-xls
